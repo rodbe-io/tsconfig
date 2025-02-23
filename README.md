@@ -50,6 +50,6 @@ Make sure to choose the appropriate configuration based on whether you need DOM 
 
 ## Additional Information
 
-- **Homepage**: [GitHub Repository](https://github.com/rodbe-io/tsconfig-5)
-- **Issues**: [Report Issues](https://github.com/rodbe-io/tsconfig-5/issues)
+- **Homepage**: [GitHub Repository](https://github.com/rodbe-io/tsconfig)
+- **Issues**: [Report Issues](https://github.com/rodbe-io/tsconfig/issues)
 - **License**: MIT
