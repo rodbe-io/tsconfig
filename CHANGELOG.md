@@ -1,3 +1,10 @@
+## [1.1.0](https://github.com/rodbe-io/tsconfig/compare/v1.0.1...v1.1.0) (2025-06-01)
+
+
+### Features
+
+* make it stricter + move to base config ([a08de10](https://github.com/rodbe-io/tsconfig/commit/a08de10b83c08e10c5ae4566debd651f7a6fb248))
+
 ## [1.0.1](https://github.com/rodbe-io/tsconfig/compare/v1.0.0...v1.0.1) (2025-02-23)
 
 
