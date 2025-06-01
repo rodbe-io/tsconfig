@@ -1,27 +1,7 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-    "allowJs": true,
-    "declaration": true,
-    "esModuleInterop": true,
-    "isolatedModules": true,
-    "lib": ["ES2022"],
-    "module": "ESNext",
-    "moduleDetection": "force",
-    "moduleResolution": "Bundler",
-    "noEmit": true,
-    "noFallthroughCasesInSwitch": true,
-    "noUncheckedIndexedAccess": true,
-    "noUnusedLocals": true,
-    "noUnusedParameters": true,
-    "outDir": "dist",
-    "resolveJsonModule": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "target": "ES2022",
-    "useDefineForClassFields": true,
-    "verbatimModuleSyntax": true
+    "lib": ["ES2022"]
   },
-  "display": ">=TS v5",
-  "exclude": ["node_modules", "dist"]
+  "extends": "./base.json"
 }
