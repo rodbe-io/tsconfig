@@ -1,3 +1,10 @@
+## [1.1.1](https://github.com/rodbe-io/tsconfig/compare/v1.1.0...v1.1.1) (2025-06-02)
+
+
+### Bug Fixes
+
+* remove tsbuildinfoFile ([a354685](https://github.com/rodbe-io/tsconfig/commit/a354685653b0006f88e65186e0dfb5cd5d0dae92))
+
 ## [1.1.0](https://github.com/rodbe-io/tsconfig/compare/v1.0.1...v1.1.0) (2025-06-01)
 
 
