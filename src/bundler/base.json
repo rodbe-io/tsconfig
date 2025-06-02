@@ -33,7 +33,6 @@
     "sourceMap": false,
     "strict": true,
     "target": "ES2022",
-    "tsBuildInfoFile": "./.cache/.tsbuildinfo",
     "useDefineForClassFields": true,
     "verbatimModuleSyntax": true
   },

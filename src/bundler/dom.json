@@ -2,7 +2,5 @@
   "compilerOptions": {
     "lib": ["ES2022", "dom", "dom.iterable"]
   },
-  "display": ">=TS v5",
-  "exclude": ["node_modules", "dist"],
   "extends": "./base.json"
 }
