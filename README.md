@@ -1,4 +1,4 @@
-# RBX: Shareable TypeScript Configurations 🧙‍♂️
+# RodBe: Shareable TypeScript Configurations 🧙‍♂️
 
 ## Overview
 
@@ -24,12 +24,12 @@ The `package.json` exports **many configurations** that can be used depending on
 
 ### Use cases
 
-| Compiler | Type   | Application | How to import?                     | Example                   |
-|----------|--------|-------------|------------------------------------|---------------------------|
-| Bundler  | DOM    | App         | @rodbe/tsconfig/bundler/dom/app    | react, vite, pkgroll, etc |
-| Bundler  | DOM    | Lib         | @rodbe/tsconfig/bundler/dom/lib    | js module                 |
-| Bundler  | NO-DOM | App         | @rodbe/tsconfig/bundler/no-dom/app | CLI                       |
-| Bundler  | NO-DOM | Lib         | @rodbe/tsconfig/bundler/no-dom/lib | nodejs module             |
+| Compiler | Type   | Application | How to import?                           | Example                   |
+|----------|--------|-------------|------------------------------------------|---------------------------|
+| Bundler  | DOM    | App         | @rodbe/tsconfig/bundler/dom/app/react    | react                     |
+| Bundler  | DOM    | Lib         | @rodbe/tsconfig/bundler/dom/lib          | js module                 |
+| Bundler  | NO-DOM | App         | @rodbe/tsconfig/bundler/no-dom/app       | CLI                       |
+| Bundler  | NO-DOM | Lib         | @rodbe/tsconfig/bundler/no-dom/lib       | nodejs module             |
 
 
 ## Usage
@@ -38,7 +38,7 @@ You can extend these configurations in your `tsconfig.json` file like so:
 
 ```json
 {
-  // extends the appropriate configuration based on your needs (see above "how to import")
+  // extends the appropriate configuration based on your needs (see above "how to import" col)
   "extends": "@rodbe/tsconfig/bundler/no-dom/app",
   "compilerOptions": {
     // Your custom options
