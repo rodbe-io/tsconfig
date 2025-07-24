@@ -1,3 +1,9 @@
+## [1.2.1](https://github.com/rodbe-io/tsconfig/compare/v1.2.0...v1.2.1) (2025-07-24)
+
+### Bug Fixes
+
+* docs + generate version ([5592f8c](https://github.com/rodbe-io/tsconfig/commit/5592f8cd0379e47349741d776872815b8931bc76))
+
 ## [1.2.0](https://github.com/rodbe-io/tsconfig/compare/v1.1.1...v1.2.0) (2025-07-24)
 
 ### Features
