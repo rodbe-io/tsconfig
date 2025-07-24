@@ -20,10 +20,10 @@
   "author": "KevinRodbe",
   "type": "module",
   "exports": {
-    "./bundler/dom/app": "./src/bundler/dom.json",
-    "./bundler/dom/lib": "./src/bundler/dom.json",
-    "./bundler/no-dom/app": "./src/bundler/no-dom.json",
-    "./bundler/no-dom/lib": "./src/bundler/no-dom.json"
+    "./bundler/dom/app/react": "./src/bundler/dom/app-react.json",
+    "./bundler/dom/lib": "./src/bundler/dom/lib.json",
+    "./bundler/no-dom/app": "./src/bundler/no-dom/lib.json",
+    "./bundler/no-dom/lib": "./src/bundler/no-dom/lib.json"
   },
   "files": [
     "src"
