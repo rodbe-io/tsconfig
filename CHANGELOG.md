@@ -1,3 +1,13 @@
+## [1.2.0](https://github.com/rodbe-io/tsconfig/compare/v1.1.1...v1.2.0) (2025-07-24)
+
+### Features
+
+* ts for react + rename files ([7534c58](https://github.com/rodbe-io/tsconfig/commit/7534c5842de2d712d207e9aa88eca7b8b1e21b2a))
+
+### Bug Fixes
+
+* vulnerabilities + cicd ([6b39029](https://github.com/rodbe-io/tsconfig/commit/6b39029c416cf8c86f2b4581273f64d24cfc66b9))
+
 ## [1.1.1](https://github.com/rodbe-io/tsconfig/compare/v1.1.0...v1.1.1) (2025-06-02)
 
 
