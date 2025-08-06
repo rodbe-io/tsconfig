@@ -1,3 +1,9 @@
+## [1.3.1](https://github.com/rodbe-io/tsconfig/compare/v1.3.0...v1.3.1) (2025-08-06)
+
+### Bug Fixes
+
+* **next:** update lib compiler option ([55f7af0](https://github.com/rodbe-io/tsconfig/commit/55f7af0f284a8a7fbb1d7800cfd94081d4994932))
+
 ## [1.3.0](https://github.com/rodbe-io/tsconfig/compare/v1.2.1...v1.3.0) (2025-08-06)
 
 ### Features
