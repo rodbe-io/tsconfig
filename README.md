@@ -26,10 +26,11 @@ The `package.json` exports **many configurations** that can be used depending on
 
 | Compiler | Type   | Application | How to import?                           | Example                   |
 |----------|--------|-------------|------------------------------------------|---------------------------|
-| Bundler  | DOM    | App         | @rodbe/tsconfig/bundler/dom/app/react    | react                     |
-| Bundler  | DOM    | Lib         | @rodbe/tsconfig/bundler/dom/lib          | js module                 |
+| Bundler  | DOM    | App         | @rodbe/tsconfig/bundler/dom/app/react    | React                     |
+| Bundler  | DOM    | App         | @rodbe/tsconfig/bundler/dom/app/next     | Next.js                   |
+| Bundler  | DOM    | Lib         | @rodbe/tsconfig/bundler/dom/lib          | JS module                 |
 | Bundler  | NO-DOM | App         | @rodbe/tsconfig/bundler/no-dom/app       | CLI                       |
-| Bundler  | NO-DOM | Lib         | @rodbe/tsconfig/bundler/no-dom/lib       | nodejs module             |
+| Bundler  | NO-DOM | Lib         | @rodbe/tsconfig/bundler/no-dom/lib       | Node.js module            |
 
 
 ## Usage
@@ -41,8 +42,35 @@ You can extend these configurations in your `tsconfig.json` file like so:
   // extends the appropriate configuration based on your needs (see above "how to import" col)
   "extends": "@rodbe/tsconfig/bundler/no-dom/app",
   "compilerOptions": {
+    "baseUrl": ".",
     // Your custom options
   }
+}
+```
+
+### For React
+```json
+{
+  // extends the appropriate configuration based on your needs (see above "how to import" col)
+  "extends": "@rodbe/tsconfig/bundler/dom/app/react",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "types": ["vite/client", "react", "node"] // if you use vite
+    // Your custom options
+  }
+}
+```
+
+### For Next.js
+```json
+{
+  // extends the appropriate configuration based on your needs (see above "how to import" col)
+  "extends": "@rodbe/tsconfig/bundler/dom/app/next",
+  "compilerOptions": {
+    "baseUrl": "."
+    // Your custom options
+  },
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"]
 }
 ```
 

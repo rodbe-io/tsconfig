@@ -20,7 +20,8 @@
   "author": "KevinRodbe",
   "type": "module",
   "exports": {
-    "./bundler/dom/app/react": "./src/bundler/dom/app-react.json",
+    "./bundler/dom/app/react": "./src/bundler/dom/app/react.json",
+    "./bundler/dom/app/next": "./src/bundler/dom/app/next.json",
     "./bundler/dom/lib": "./src/bundler/dom/lib.json",
     "./bundler/no-dom/app": "./src/bundler/no-dom/lib.json",
     "./bundler/no-dom/lib": "./src/bundler/no-dom/lib.json"

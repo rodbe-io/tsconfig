@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "sourceMap": false
+  },
+  "display": ">=TS v5",
+  "exclude": ["node_modules", "dist"],
+  "extends": "../agnostic.json"
+}
