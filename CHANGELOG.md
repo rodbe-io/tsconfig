@@ -1,3 +1,9 @@
+## [1.3.0](https://github.com/rodbe-io/tsconfig/compare/v1.2.1...v1.3.0) (2025-08-06)
+
+### Features
+
+* add next config + refactor structure + update readme ([b9bbbc7](https://github.com/rodbe-io/tsconfig/commit/b9bbbc7234099cea9c98a72fa6bd99e65758e2df))
+
 ## [1.2.1](https://github.com/rodbe-io/tsconfig/compare/v1.2.0...v1.2.1) (2025-07-24)
 
 ### Bug Fixes
