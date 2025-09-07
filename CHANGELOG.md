@@ -1,3 +1,9 @@
+## [1.4.0](https://github.com/rodbe-io/tsconfig/compare/v1.3.1...v1.4.0) (2025-09-07)
+
+### Features
+
+* **base:** add config ([caa883f](https://github.com/rodbe-io/tsconfig/commit/caa883fab99d2b678eb1a3b2c39d431fdd69f302))
+
 ## [1.3.1](https://github.com/rodbe-io/tsconfig/compare/v1.3.0...v1.3.1) (2025-08-06)
 
 ### Bug Fixes
